@@ -1,0 +1,38 @@
+
+
+body {
+    background-image: url('https://cdn.greenvelope.com/viewer/background.ashx?backgroundid=1043&backgroundcolor=CCCCCC&q=100&w=1920');
+}
+
+
+body,html {
+    height: 100%;
+   font-family:cursive
+  }
+
+  .color{
+   color:  #7ac2ad
+  }
+
+  .bg {
+    background-color: #ffffff61;
+  }
+
+
+  .btn{
+      font-family: Arial, Helvetica, sans-serif;
+  }
+
+  #loading {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(192, 192, 192, 0.5);
+    background-image: url("./img/loading.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
